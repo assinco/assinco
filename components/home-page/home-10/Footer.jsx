@@ -8,8 +8,8 @@ const Footer = () => {
       links: [
         { label: 'Inicio', href: '/' },
         { label: 'Servicios', href: '/#servicios' },
-        { label: 'Proyectos', href: '/pages-menu/about-us-v1' },
-        { label: 'Nosotros', href: '/pages-menu/service-v1' },
+        { label: 'Proyectos', href: '/#proyectos' },
+        { label: 'Nosotros', href: '/#nosotros' },
       ],
       classes: 'col-lg-2 col-sm-4 ms-auto mb-30',
     },
