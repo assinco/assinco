@@ -14,7 +14,7 @@ const Illustration = () => {
       <img
         src='/images/assets/White And Navy Modern HVAC Service Instagram Post.png'
         alt='illustration'
-        className='lazy-img main-illustration w-100 mb-60'
+        className='lazy-img main-illustration w-100 mb-20'
       />
       {/* {shapes.map((shape, i) => (
         <img
