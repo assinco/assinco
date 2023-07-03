@@ -31,7 +31,12 @@ const Header = () => {
         <div className='d-flex align-items-center justify-content-between'>
           <div className='logo order-lg-0'>
             <Link href='/' className='d-block'>
-              <img src='/images/logo/assinco.webp' alt='logo' width={93} />
+              <Image
+                src='/images/logo/assinco.png'
+                alt='logo'
+                width={95}
+                height={30}
+              />
             </Link>
           </div>
           <div className='right-widget ms-auto d-flex align-items-center order-lg-3'>
