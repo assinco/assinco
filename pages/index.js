@@ -1,17 +1,12 @@
 import Wrapper from '../layout/wrapper';
-import Link from 'next/link';
 import Seo from '../components/common/Seo';
 import Blog from '../components/home-page/home-10/Blog';
 import FancyBlock from '../components/home-page/home-10/FancyBlock';
-import FancyBlock2 from '../components/home-page/home-10/FancyBlock2';
 import Header from '../components/home-page/home-10/Header';
 import Hero from '../components/home-page/home-10/Hero';
-import OurAim from '../components/home-page/home-10/OurAim';
-import Services from '../components/home-page/home-10/Services';
 import Testimonial from '../components/home-page/home-10/Testimonial';
 import FancyBanner from '../components/home-page/home-10/FancyBanner';
 import Footer from '../components/home-page/home-10/Footer';
-import { Element } from 'react-scroll';
 import ProperyFilter from '../components/home-page/home-5/ProperyFilter';
 
 const MainRoot = () => {
@@ -67,39 +62,8 @@ const MainRoot = () => {
           </div>
         </div>
         {/* End .row */}
-
-        {/* <div className='inner-content pt-110 lg-pt-60 md-pt-30'>
-          <div className='row gx-xxl-5'>
-            <Services />
-          </div>
-        </div> */}
-        {/* /.inner-content */}
       </div>
       {/* /.fancy-feature-one */}
-      {/* 
-        =============================================
-        Feature Section Two
-        ============================================== 
-        */}
-      {/* <div className='fancy-feature-two position-relative pt-225 mt-40 lg-pt-100 sm-pt-60'>
-        <div className='container'>
-          <OurAim />
-        </div>
-      </div> */}
-      {/* /.fancy-feature-two */}
-      {/*
-			=====================================================
-				Card Style Two
-			=====================================================
-			*/}
-      {/* <div className='wrapper pt-110 lg-pt-80'>
-        <div className='container'>
-          <div className='row justify-content-between'>
-            <FancyBlock2 />
-          </div>
-        </div>
-      </div> */}
-      {/* /.wrapper */}
       {/*
 			=====================================================
 				Blog Section One
