@@ -33,11 +33,7 @@ const FancyBlock = () => {
   ];
 
   const data = {
-    title: (
-      <>
-        <span>Nosotros</span>
-      </>
-    ),
+    title: <>Nosotros</>,
     subtitle:
       'La empresa Assinco Ingeniería S.R.L. nace el 08 de Abril de 1990, con el aporte y determinación de su propietario el Ing. Rocky Aspiazu  en el rubro del servicio e instalaciones de aire acondicionado. Se inicia  trabajando con equipos de Aire Acondicionado que se adquirían en el mercado local, en los modelos domiciliarios, comerciales e industriales. Con el transcurso del tiempo, del avance y crecimiento de la empresa, logramos la importación de equipos propios en marcas reconocidas a nivel internacional, además ampliamos nuestros servicios hacia el área de Sistemas de extracción.',
   };

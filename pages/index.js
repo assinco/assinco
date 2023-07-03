@@ -12,6 +12,7 @@ import Testimonial from '../components/home-page/home-10/Testimonial';
 import FancyBanner from '../components/home-page/home-10/FancyBanner';
 import Footer from '../components/home-page/home-10/Footer';
 import { Element } from 'react-scroll';
+import ProperyFilter from '../components/home-page/home-5/ProperyFilter';
 
 const MainRoot = () => {
   return (
@@ -41,7 +42,6 @@ const MainRoot = () => {
         </div>
       </div>
       {/* /.hero-banner-one */}
-
       {/* 
         =============================================
         Feature Section One
@@ -76,7 +76,6 @@ const MainRoot = () => {
         {/* /.inner-content */}
       </div>
       {/* /.fancy-feature-one */}
-
       {/* 
         =============================================
         Feature Section Two
@@ -88,7 +87,6 @@ const MainRoot = () => {
         </div>
       </div> */}
       {/* /.fancy-feature-two */}
-
       {/*
 			=====================================================
 				Card Style Two
@@ -102,7 +100,6 @@ const MainRoot = () => {
         </div>
       </div> */}
       {/* /.wrapper */}
-
       {/*
 			=====================================================
 				Blog Section One
@@ -122,9 +119,7 @@ const MainRoot = () => {
             <div className='row align-items-center'>
               <div className='col-lg-6 col-sm-7'>
                 <div className='title-style-one text-center text-sm-start xs-mb-30'>
-                  <h2 className='main-title fw-bold tx-dark m0'>
-                    <span>Servicios</span>
-                  </h2>
+                  <h2 className='main-title fw-bold tx-dark m0'>Servicios</h2>
                 </div>
                 {/* /.title-style-one */}
               </div>
@@ -140,7 +135,21 @@ const MainRoot = () => {
         {/* /.bg-wrapper */}
       </div>
       {/* /.blog-section-one */}
+      {/* 
+      ============================================= Productos
+      ============================================== */}
+      <div className='fancy-feature-fortySeven zn2 position-relative pt-130 pb-160 lg-pt-100 lg-pb-100'>
+        <div className='container'>
+          <ProperyFilter />
+        </div>
+        {/* /.container */}
 
+        <img
+          src='/images/shape/shape_163.svg'
+          alt='media'
+          className='lazy-img shapes shape-one'
+        />
+      </div>
       {/*
 			=====================================================
 				Proyectos
@@ -179,7 +188,6 @@ const MainRoot = () => {
         {/* /.container */}
       </div>
       {/* /.fancy-feature-two */}
-
       {/* 
 			=============================================
 				Wrapper
@@ -187,14 +195,12 @@ const MainRoot = () => {
 			*/}
       <FancyBanner />
       {/* /.wrapper */}
-
       {/*
 			=====================================================
 				Fancy Short Banner One
 			=====================================================
 			*/}
       {/* /.fancy-short-banner-one */}
-
       {/*
 			=====================================================
 				Footer

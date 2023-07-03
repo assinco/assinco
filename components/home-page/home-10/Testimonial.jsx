@@ -15,7 +15,7 @@ const Testimonial = () => {
           <div className='col-lg-6 col-md-7'>
             <div className='title-style-one text-center text-md-start'>
               <h2 className='main-title fw-bold tx-dark m0'>
-                Proyectos <span>destacados</span>
+                Proyectos destacados
               </h2>
             </div>
             {/* /.title-style-one */}
