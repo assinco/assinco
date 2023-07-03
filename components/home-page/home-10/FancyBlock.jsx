@@ -40,7 +40,7 @@ const FancyBlock = () => {
 
   return (
     <div className='row margin-auto' id='nosotros'>
-      <div className='col-xl-5 col-lg-6 ms-auto order-lg-last'>
+      <div className='col-xl-5 col-lg-6 ms-auto my-auto order-lg-last'>
         <div className='block-style-one md-mb-60' data-aos='fade-left'>
           <div className='title-style-one'>
             <h2 className='main-title fw-bold tx-dark m0'>{data.title}</h2>
@@ -56,7 +56,7 @@ const FancyBlock = () => {
       {/* End .col-xl-5 */}
 
       <div
-        className='col-xl-6 col-lg-5 col-md-8 col-sm-10 order-lg-first'
+        className='col-xl-6 col-lg-5 col-md-8 col-sm-10 order-lg-first mx-auto'
         data-aos='fade-right'
       >
         <div className='img-meta-two d-inline-block position-relative pb-50'>

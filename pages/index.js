@@ -126,7 +126,7 @@ const MainRoot = () => {
             </div>
             {/* End .row */}
 
-            <div className='row pt-50 lg-pt-30'>
+            <div className='row pt-50 lg-pt-30 mx-auto'>
               <Blog />
             </div>
           </div>

@@ -8,11 +8,11 @@ const Blog = () => {
         <div
           id='servicios'
           key={index}
-          className={`col-lg-3 col-sm-6 d-flex`}
+          className={`col-lg-3 col-sm-6 d-flex mx-auto`}
           data-aos='fade-up'
           data-aos-delay={`${index * 100}`}
         >
-          <article className='blog-meta-one tran3s mt-20'>
+          <article className='blog-meta-one tran3s mt-20 mx-auto'>
             <figure className='post-img m0'>
               <Link href={`/blog/${blog.id}`} className='w-100 d-block'>
                 <img
