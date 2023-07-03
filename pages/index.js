@@ -30,7 +30,7 @@ const MainRoot = () => {
         Theme Hero Banner
         ============================================== 
         */}
-      <div className='hero-banner-one p-30'>
+      <div className='hero-banner-one'>
         <div className='bg-wrapper' data-aos='fade'>
           <Hero />
           {/* /.container */}

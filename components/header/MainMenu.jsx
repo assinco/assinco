@@ -39,7 +39,7 @@ const MainMenu = () => {
       {/* End mobile collapse menu */}
 
       <div className='collapse navbar-collapse' id='navbarNav'>
-        <ul className='navbar-nav'>
+        <ul className='navbar-nav text-white'>
           <li className='d-block d-lg-none'>
             <div className='logo'>
               <Link href='/' className='d-block'>
