@@ -1,13 +1,13 @@
 import Wrapper from '../layout/wrapper';
 import Seo from '../components/common/Seo';
-import Blog from '../components/home-page/home-10/Blog';
-import FancyBlock from '../components/home-page/home-10/FancyBlock';
+import Servicios from '../components/home-page/home-10/Servicios';
+import Nosotros from '../components/home-page/home-10/Nosotros';
 import Header from '../components/home-page/home-10/Header';
 import Hero from '../components/home-page/home-10/Hero';
-import Testimonial from '../components/home-page/home-10/Testimonial';
+import Proyectos from '../components/home-page/home-10/Proyectos';
 import FancyBanner from '../components/home-page/home-10/FancyBanner';
 import Footer from '../components/home-page/home-10/Footer';
-import ProperyFilter from '../components/home-page/home-5/ProperyFilter';
+import Productos from '../components/home-page/home-5/Productos';
 
 const MainRoot = () => {
   return (
@@ -28,18 +28,12 @@ const MainRoot = () => {
       <div className='hero-banner-one'>
         <div className='bg-wrapper' data-aos='fade'>
           <Hero />
-          {/* /.container */}
-          <img
-            src='/images/shape/shape_08.svg'
-            alt='illustration'
-            className='lazy-img shapes shape-eight'
-          />
         </div>
       </div>
       {/* /.hero-banner-one */}
       {/* 
         =============================================
-        Feature Section One
+        Frase
         ============================================== 
         */}
       <div className='fancy-feature-one pt-170 lg-pt-140'>
@@ -83,7 +77,9 @@ const MainRoot = () => {
             <div className='row align-items-center'>
               <div className='col-lg-6 col-sm-7'>
                 <div className='title-style-one text-center text-sm-start xs-mb-30'>
-                  <h2 className='main-title fw-bold tx-dark m0'>Servicios</h2>
+                  <h2 className='main-title fw-bold service-section-one'>
+                    Servicios
+                  </h2>
                 </div>
                 {/* /.title-style-one */}
               </div>
@@ -91,7 +87,7 @@ const MainRoot = () => {
             {/* End .row */}
 
             <div className='row pt-50 lg-pt-30 mx-auto'>
-              <Blog />
+              <Servicios />
             </div>
           </div>
           {/* /.container */}
@@ -99,12 +95,13 @@ const MainRoot = () => {
         {/* /.bg-wrapper */}
       </div>
       {/* /.blog-section-one */}
-      {/* 
-      ============================================= Productos
+
+      {/* ============================================= 
+                          Productos
       ============================================== */}
       <div className='fancy-feature-fortySeven zn2 position-relative pt-130 pb-160 lg-pt-100 lg-pb-100'>
         <div className='container'>
-          <ProperyFilter />
+          <Productos />
         </div>
         {/* /.container */}
 
@@ -132,7 +129,7 @@ const MainRoot = () => {
           />
           <div className='shapes shape-two' />
           <div className='shapes shape-three' />
-          <Testimonial />
+          <Proyectos />
         </div>
         {/* /.bg-wrapper */}
       </div>
@@ -147,7 +144,7 @@ const MainRoot = () => {
         className='fancy-feature-two position-relative pt-100 lg-pt-120'
       >
         <div className='container'>
-          <FancyBlock />
+          <Nosotros />
         </div>
         {/* /.container */}
       </div>

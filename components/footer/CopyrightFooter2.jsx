@@ -7,7 +7,7 @@ const icons = [
   },
   {
     icon: 'fab fa-linkedin-in',
-    href: 'https://www.linkedin.com/company/assinco-climatizaci%C3%B3n/',
+    href: 'https://www.linkedin.com/company/assinco-climatizaci%C3%B3n/about/',
   },
 ];
 

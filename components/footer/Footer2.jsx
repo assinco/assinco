@@ -11,8 +11,8 @@ const columns = [
   {
     title: 'Contacto',
     links: [
-      { label: '(3) 337-0203', url: 'tel:3337-0203' },
-      { label: '(7) 730-6068', url: 'tel:+59177306068' },
+      { label: '3 337-0203', url: 'tel:3337-0203' },
+      { label: '7 730-6068', url: 'tel:+59177306068' },
     ],
   },
   {

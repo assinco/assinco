@@ -33,9 +33,9 @@ const DefaulHeader = () => {
             <Link href='/' className='d-block'>
               <Image
                 src='/images/logo/assinco.png'
-                alt='logo'
+                alt='Logo de Assinco'
                 width={95}
-                height={30}
+                height={40}
               />
             </Link>
           </div>

@@ -1,6 +1,6 @@
 const Map = () => {
   return (
-    <div className='map-area-one p-30 mt-120 lg-mt-80 wow fadeInUp'>
+    <div className='map-area-one p-30 mt-120 lg-mt-80 wow fadeInUp '>
       <div className='box-layout'>
         <div className='mapouter'>
           <div className='gmap_canvas'>

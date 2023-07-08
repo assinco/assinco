@@ -1,4 +1,3 @@
-import HeroSubscribe from './HeroSubscribe';
 import Illustration from './Illustration';
 
 const Hero = () => {

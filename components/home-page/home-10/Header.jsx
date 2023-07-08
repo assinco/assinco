@@ -35,7 +35,7 @@ const Header = () => {
                 src='/images/logo/assinco.png'
                 alt='logo'
                 width={95}
-                height={30}
+                height={40}
               />
             </Link>
           </div>

@@ -14,7 +14,7 @@ const Social = () => {
     <ul className='d-flex social-icon style-none'>
       {socialIcons.map((icon, index) => (
         <li key={index}>
-          <a href={icon.link} target='_blank' rel='noopener noreferrer'>
+          <a href={icon.link} target='_blank' rel='noopener noreferrer '>
             <i className={icon.iconClass} />
           </a>
         </li>

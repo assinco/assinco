@@ -11,14 +11,14 @@ const BlockContact = () => {
     {
       icon: '/images/icon/icon_148.svg',
       title: 'Contacto',
-      content: 'Llamanos al',
+      content: 'Llama al',
       link: 'tel:(3) 337-0203',
       delay: '200',
     },
     {
       icon: '/images/icon/icon_149.svg',
       title: 'Correo',
-      content: 'Escribenos a',
+      content: 'Escribe a',
       link: 'assinco@cotas.com.bo',
       delay: '300',
     },

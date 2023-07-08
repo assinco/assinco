@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import Footer2 from './Footer2';
-import NewsLetter from './NewsLetter';
 import CopyrightFooter2 from './CopyrightFooter2';
 
 const DefaultFooter = () => {
@@ -12,7 +11,7 @@ const DefaultFooter = () => {
             <div className='col-xl-2 footer-intro mb-40'>
               <div className='logo'>
                 <Link href='/'>
-                  <img src='/images/logo/assinco.png' alt='brand' />
+                  <img src='/images/logo/assinco.png' alt='logo de assinco' />
                 </Link>
               </div>
             </div>

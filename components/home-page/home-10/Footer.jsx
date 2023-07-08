@@ -55,7 +55,7 @@ const Footer = () => {
 
       <div className='col-xl-3 col-sm-4 mb-30'>
         <h5 className='footer-title tx-dark fw-500'>Dirección</h5>
-        <p className='fs-17'>Calle Horacio Rios #24.</p>
+        <p className='fs-17'>Calle Horacio Rios #24. </p>
         <a href='mailto:januinc@company.com' className='email tran3s fs-17'>
           assinco@cotas.com.bo
         </a>
